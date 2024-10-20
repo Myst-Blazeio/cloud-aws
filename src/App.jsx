@@ -12,9 +12,9 @@ const App = () => {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Navbar />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="*" element={<Navbar />} />
+          <Route path="/cloud-aws/" element={<Navbar />} />
+          <Route path="/cloud-aws/login" element={<Login />} />
+          <Route path="/cloud-aws/*" element={<Navbar />} />
         </Routes>
       </Router>
     </>
