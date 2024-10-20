@@ -10,7 +10,7 @@ const NavbarMain = () => {
   const navigate = useNavigate();
 
   const handleHomePage = () => {
-    navigate('/cloud-aws/');
+    navigate('/');
   };
 
   return (

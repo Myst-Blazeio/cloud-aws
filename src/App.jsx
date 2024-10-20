@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route, Routes
 } from "react-router-dom";
 import Login from './components/auth/login/Login';
@@ -13,9 +13,9 @@ const App = () => {
     <>
       <Router>
         <Routes>
-          <Route path="/cloud-aws/" element={<HomePage />} />
-          <Route path="/cloud-aws/login" element={<Login />} />
-          <Route path="/cloud-aws/*" element={<Navbar />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/*" element={<Navbar />} />
         </Routes>
       </Router>
     </>

@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/cloud-aws/', // Add this line
+  base: '/', // Add this line
 });

@@ -48,7 +48,7 @@ const HomePage = () => {
     const navigate = useNavigate();
 
   const handleGetStarted = () => {
-    navigate('/cloud-aws/login');
+    navigate('/login');
   };
 
   return (
